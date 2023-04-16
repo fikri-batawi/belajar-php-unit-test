@@ -1,0 +1,25 @@
+{
+    "name": "fikri/belajar-php-unit-test",
+    "authors": [
+        {
+            "name": "Muhammad Fikri",
+            "email": "fikri2347@gmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "9.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BelajarPhpUnitTest\\Test\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BelajarPhpUnitTest\\Test\\" : "tests"
+        }
+    }
+}
